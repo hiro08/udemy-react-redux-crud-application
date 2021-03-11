@@ -27,7 +27,7 @@ ReactDOM.render(
           <Route exact path="/events" component={EventsIndex} />
         </Switch>
       </BrowserRouter>
-    </Provider>,
+    </Provider>
   </MuiThemeProvider>,
   document.getElementById('root')
 );
